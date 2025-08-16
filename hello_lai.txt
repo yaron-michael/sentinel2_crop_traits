@@ -1,0 +1,2 @@
+hello world
+LAI mean: 2.4435761043885607

@@ -52,3 +52,20 @@ python -m venv my_venv
 source my_venv/bin/activate
 pip install -r requirements.txt
 ```
+
+### Docker
+
+A [`Dockerfile`](Dockerfile) is provided for running the project in an isolated environment.
+
+Build the image:
+
+```bash
+docker build -t sentinel2-traits .
+```
+
+Start an interactive container:
+
+```bash
+docker run --rm -it sentinel2-traits
+```
+
